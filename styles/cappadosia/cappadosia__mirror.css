@@ -1,0 +1,16 @@
+.cappadosia__mirror {
+    background-image: url(../../images/mirror.svg);
+    background-size: cover;
+    width: 480px;
+    height: 480px;
+    margin-right: 250px;
+}
+
+@media (max-width: 768px) {
+    .cappadosia__mirror {
+        background-image: url(../../images/mirror__cappadosia__small.svg);
+        background-size: cover;
+        width: 204px;
+        height: 204px;
+    }
+}

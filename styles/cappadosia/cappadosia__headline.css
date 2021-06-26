@@ -1,0 +1,26 @@
+.cappadosia__headline {
+    width: 405px;
+    height: 172px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 120%;
+    font-feature-settings: "pwid" on;
+    color: #ef7d6e;
+}
+
+@media (max-width: 1024px) {
+    .cappadosia__headline {
+      padding: 0px 0px 0px 20px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .cappadosia__headline {
+        font-size: 48px;
+        width: 270px;
+        height: 120px;
+    }
+}

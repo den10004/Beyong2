@@ -1,0 +1,33 @@
+@import url(./cappadosia__images.css);
+@import url(./cappadosia__mirror.css);
+@import url(./cappadosia__ellipse.css);
+@import url(./cappadosia__headline.css);
+@import url(./cappadosia__disposition.css);
+@import url(./cappadosia__data.css);
+@import url(./cappadosia__text.css);
+@import url(./cappadosia__picture.css);
+
+.cappadosia {
+    max-width: 100%;
+    max-height: 1432px;
+    background: #1c1c28;
+    padding: 180px 0px 0px 175px;
+    position: relative;
+}
+
+@media (max-width: 1100px) {
+    .cappadosia {
+        padding: 180px 0px 0px 0px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .cappadosia {
+        height: 840px
+    }
+}
+
+

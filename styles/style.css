@@ -1,0 +1,31 @@
+@import url(../fonts/merriweather.css);
+@import url(./main/button__social.css);
+@import url(./main/main__content.css);
+@import url(./main/main__header.css);
+@import url(./main/main__text.css);
+@import url(./main/main__cards.css);
+@import url(./cappadosia/capadosia.css);
+@import url(./lineUp/lineUp.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: #FFF6E9;
+    max-width: 1440px;
+    margin:0 auto
+   
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+

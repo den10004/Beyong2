@@ -1,0 +1,36 @@
+.cappadosia__data {
+    width: 333px;
+    height: 40px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffeed6;
+}
+
+@media (max-width: 425px) {
+    .cappadosia__data {
+        font-size: 18px;
+        width: auto;
+    }
+}
+
+
+.cappadosia__country {
+    width: 277px;
+    height: 40px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffeed6;
+}
+
+@media (max-width: 425px) {
+    .cappadosia__country {
+        font-size: 18px;
+        width: auto;
+    }
+}

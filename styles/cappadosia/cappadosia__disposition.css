@@ -1,0 +1,15 @@
+.cappadosia__disposition {
+    display: flex;
+    justify-content: space-between;
+    width: 648px;
+    margin-top: 64px;
+}
+
+@media (max-width: 1024px) {
+    .cappadosia__disposition {
+        flex-direction: column;
+        margin-top: 32px;
+        width: 187px;
+        padding: 0px 0px 0px 20px;
+    }
+}

@@ -1,0 +1,36 @@
+@import url(./lineUp__headline.css);
+@import url(./lineUp__circle.css);
+@import url(./lineUp__swiper.css);
+@import url(./lineUp__slider_container.css);
+@import url(./lineUp__main.css);
+
+.lineUp {
+    margin-top: 180px;
+    padding: 0px 0px 0px 175px;
+    position: relative;
+    align-items: center;
+
+
+}
+
+@media (max-width: 1200px) {
+    .lineUp {
+        margin-top: 90px;
+        padding: 0px 0px 0px 50px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .lineUp {
+        padding: 0px 0px 0px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lineUp {
+        margin-top: 200px;
+        padding: 0px 0px 0px 0px;
+        height: 750px;
+    }
+}

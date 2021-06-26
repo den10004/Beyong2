@@ -1,0 +1,28 @@
+
+.cappadosia__ellipse {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+
+@media (max-width: 768px) {
+    .cappadosia__ellipse {
+        display: none;
+    }
+}
+
+.cappadosia__ellipse_small {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .cappadosia__ellipse_small {
+        display: inline;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        transform: rotate(3deg);
+    }
+}

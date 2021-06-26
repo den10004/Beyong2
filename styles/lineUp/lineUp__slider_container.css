@@ -1,0 +1,119 @@
+.lineUp__slider {
+    padding: 0px 0px 0px 0px;
+    width: 80%;
+}
+
+@media (max-width: 1024px) {
+    .lineUp__slider {
+        padding: 0px 30px 0px 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .lineUp__slider {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.lineUp__slider_cover {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .lineUp__slider_cover {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .lineUp__slider_cover {
+        margin-top: 50px;
+    }
+}
+
+
+.slider_cover_photo {
+    z-index: 0;
+}
+
+@media (max-width: 1024px) {
+    .slider_cover_photo {
+        width: 172px;
+        height: 172px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider_cover_photo {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .slider_cover_photo {
+        margin-top: 35px;
+    }
+}
+
+
+.slider_text_cover {
+    display: flex;
+    flex-direction: column;
+    margin-top: 69px;
+    margin-left: 7%;
+}
+
+
+@media (max-width: 1024px) {
+    .slider_slider_text_cover {
+        margin-left: 0px;
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider_slider_text_cover {
+        margin-top: 36px;
+        width: 90%;
+    }
+}
+
+.slider_text_headline {
+    z-index: 0;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2b2b33;
+}
+
+@media (max-width: 768px) {
+    .slider_text_headline {
+        font-size: 28px;
+    }
+}
+
+.slider_text_main {
+    z-index: 0;
+    margin-top: 40px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2b2b33;
+    opacity: 0.6;
+    width: 440px;
+}
+
+@media (max-width: 768px) {
+    .slider_text_main {
+        margin-top: 24px;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+

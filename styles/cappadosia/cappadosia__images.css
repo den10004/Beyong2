@@ -1,0 +1,20 @@
+.cappadosia__images {
+    position: absolute;
+    width: 520px;
+    right: 5%;
+    top: -80px;
+}
+
+@media (max-width: 900px) {
+    .cappadosia__images {
+        top: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cappadosia__images {
+        top: -100px;
+        right: 10%;
+        width: 210px;
+    }
+}

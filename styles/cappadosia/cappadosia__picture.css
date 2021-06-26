@@ -1,0 +1,169 @@
+.cappadosia__picture {
+    margin-top: 202px;
+    position: relative;
+    z-index: 1;
+}
+
+.cappadosia__image {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .cappadosia__image {
+        background-size: cover;
+        margin-top: 90px;
+       /* margin-left: -20px;*/
+    }
+}
+
+@media (max-width: 768px) {
+    .cappadosia__image {
+        margin-top: -140px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cappadosia__image {
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 519px) {
+    .cappadosia__image {
+        margin-top: -158px;
+    }
+}
+
+@media (max-width: 481px) {
+    .cappadosia__image {
+        margin-top: -210px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .cappadosia__image {
+      /*  width: 105%;*/
+        margin-top: -123px;
+    }
+}
+
+@media (max-width: 414px) {
+    .cappadosia__image {
+        margin-top: -119px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cappadosia__image {
+        margin-top: -128px;
+     /*   width: 106%;*/
+    }
+}
+
+@media (max-width: 320px) {
+    .cappadosia__image {
+        margin-top: -160px;
+     /*   width: 106%;*/
+    }
+}
+
+.cappadosia__buttons {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    margin-top: 50%;
+    right: 176px;
+    width: 135px;
+}
+
+@media (max-width: 1280px) {
+    .cappadosia__buttons {
+        margin-top: 48%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cappadosia__buttons {
+        margin-top: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cappadosia__buttons {
+        margin-top: 26%;
+        right: 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cappadosia__buttons {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 519px) {
+    .cappadosia__buttons {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 481px) {
+    .cappadosia__buttons {
+        margin-top: -5%;
+    }
+}
+
+
+
+
+@media (max-width: 425px) {
+    .cappadosia__buttons {
+        margin-top: 8%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .cappadosia__buttons {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cappadosia__buttons {
+        margin-top: -20%;
+    }
+}
+
+.cappadosia__buttons_direction {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.cappadosia__buttons_left {
+    background-image: url(../../images/cappadocia__button_left.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 64px;
+}
+
+.cappadosia__buttons_right {
+    background-image: url(../../images/cappadocia__button_right.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.cappadosia__buttons_circle {
+    position: absolute;
+    background-image: url(../../images/cappadocia__play.png);
+    background-repeat: no-repeat;
+    right: 1px;
+    width: 67px;
+    height: 67px;
+}

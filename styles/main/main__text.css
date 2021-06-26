@@ -1,0 +1,62 @@
+.main__text {
+    margin-top: 126px;
+    display: flex;
+    max-width: 75%;
+}
+
+@media (max-width: 768px) {
+    .main__text {
+        margin-top: 34px;
+        flex-direction: column;
+        max-width: 90%;
+    }
+} 
+
+
+
+.text__text {
+    max-width: 70%;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;  
+    letter-spacing: -0.01em;
+    color: #2B2B33;
+}
+
+@media (max-width: 768px) {
+    .text__text {
+        font-size: 16px;
+        max-width: 95%;
+    }
+} 
+
+.main__description {
+    max-width: 132px;
+    padding-left: 54px;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;  
+    text-align: right;
+    color: #2B2B33;
+}
+
+@media (max-width: 768px) {
+    .main__description {
+        font-size: 16px;
+        margin-top: 32px;
+        padding: 0;
+        max-width: 100%;
+    }
+} 
+
+@media (max-width: 425px) {
+    .main__description {
+          max-width: 95%;
+    }
+} 
+
+
