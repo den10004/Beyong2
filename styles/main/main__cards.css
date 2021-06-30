@@ -35,7 +35,7 @@
 }
 
 .cards__face {
-    background-image: url(../../images/image__face.svg);
+    background-image: url(../../images/image__face.png);
     background-size: cover;
     width: 296px;
     height: 444px;
@@ -44,7 +44,7 @@
 
 @media (max-width: 1192px) {
     .cards__face {
-        background-image: url(../../images/image__face_small.svg);
+        background-image: url(../../images/image__face_small.png);
         width: 150px;
         height: 225px;
     }
@@ -52,7 +52,6 @@
 
 @media (max-width: 520px) {
     .cards__face {
-        background-image: url(../../images/image__face_small.svg);
         background-size: cover;
         position: absolute;
         width: 150px;
@@ -64,7 +63,7 @@
 
 .cards__hand {
     margin-top: 173px;
-    background-image: url(../../images/image__hand.svg);
+    background-image: url(../../images/image__hand.png);
     background-size: cover;
     width: 296px;
     height: 563px;
@@ -72,7 +71,7 @@
 
 @media (max-width: 1192px) {
     .cards__hand {
-        background-image: url(../../images/image__hand__small.svg);
+        background-image: url(../../images/image__hand__small.png);
         width: 150px;
         height: 284px;
     }
@@ -81,7 +80,6 @@
 @media (max-width: 520px) {
     .cards__hand {
         position: absolute;
-        background-image: url(../../images/image__hand__small.svg);
         background-size: cover;
         margin-top: 0px;
         right: 0px;
@@ -93,7 +91,7 @@
 
 .cards__glass {
     margin-top: 0px;
-    background-image: url(../../images/image__glass.svg);
+    background-image: url(../../images/image__glass.png);
     background-size: cover;
     width: 296px;
     height: 296px;
@@ -101,7 +99,7 @@
 
 @media (max-width: 1192px) {
     .cards__glass {
-        background-image: url(../../images/image__glass__small.svg);
+        background-image: url(../../images/image__glass__small.png);
         background-size: cover;
         width: 130px;
         height: 170px;
@@ -111,8 +109,6 @@
 @media (max-width: 520px) {
     .cards__glass {
         position: absolute;
-        background-image: url(../../images/image__glass__small.svg);
-        background-size: cover;
         margin-top: 0px;
         left: 20px;
         top: 378px;
@@ -123,7 +119,7 @@
 
 .cards__mountain {
     margin-top: 100px;
-    background-image: url(../../images/image__mountain.svg);
+    background-image: url(../../images/image__mountain.png);
     background-size: cover;
     width: 148px;
     height: 148px;
@@ -131,7 +127,7 @@
 
 @media (max-width: 1192px) {
     .cards__mountain {
-        background-image: url(../../images/image__maintain__small.svg);
+        background-image: url(../../images/image__maintain__small.png);
         background-size: cover;
         width: 148px;
         height: 148px;
@@ -141,8 +137,6 @@
 @media (max-width: 520px) {
     .cards__mountain {
         position: absolute;
-        background-image: url(../../images/image__maintain__small.svg);
-        background-size: cover;
         margin-top: 0px;
         top: 290px;
         left: 95px;
@@ -164,18 +158,13 @@
 
 .cards__girl {
     margin-top: 92px;
-    background-image: url(../../images/image__girl.svg);
+    background-image: url(../../images/image__girl.png);
     background-size: cover;
     width: 296px;
     height: 296px;
 }
 
-@media (max-width: 1192px) {
-    .cards__girl {
-        background-image: url(../../images/image__girl.svg);
-        background-size: cover;
-    }
-}
+
 /********************/
 
 .main__ellipse_cover {
